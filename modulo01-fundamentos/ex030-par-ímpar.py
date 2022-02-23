@@ -1,0 +1,16 @@
+'''
+# Desafio 030
+
+Exercício Python 030: Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
+'''
+
+
+numero = int(input('Digite um número inteiro: '))
+
+par = numero % 2 == 0
+impar = numero % 2 == 1
+
+if par == True:
+    print(f'O número {numero} é PAR.')
+else:
+    print(f'O número {numero} é ÍMPAR.')
